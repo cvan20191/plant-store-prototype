@@ -1,8 +1,38 @@
-# React + Vite
+# Christian's Plants - Development Site 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A prototype e-commerce site for selling plants and botanical products. This development version is for testing features and design implementations.
 
-Currently, two official plugins are available:
+## About
+This project is built using:
+- Vite
+- React
+- Javascript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Plant catalog browsing
+- Shopping cart functionality
+- User authentication
+- Secure checkout process
+- Plant care guides
+
+## Local Development
+```bash
+# Clone the repository
+git clone https://github.com/cvan20191/christians-plants-dev
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Project Status
+🚧 **Currently in Development** 🚧
+This is a testing environment and not intended for production use.
+
+## Contact
+Christian Van
+
+## License
+MIT-LICENSE
