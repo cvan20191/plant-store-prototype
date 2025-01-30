@@ -35,4 +35,4 @@ This is a testing environment and not intended for production use.
 Christian Van
 
 ## License
-MIT-LICENSE
+[MIT](LICENSE)
