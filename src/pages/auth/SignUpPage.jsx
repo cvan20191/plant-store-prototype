@@ -18,7 +18,7 @@ export default function SignUpPage() {
             type: "password",
           },
         ]}
-        submitButtonText="sign up"
+        submitButtonLabel="sign up"
       />
     </div>
   );
