@@ -1,12 +1,13 @@
 import AuthForm from "./AuthForm";
-
+import FormContainer from "./FormContainer";
+import { Link } from "react-router-dom";
 export default function SignUpPage() {
   return (
-    <div className="flex justify-center items-center">
+    <FormContainer>
       <AuthForm
         fields={[
           {
-            label: "username",
+            label: "username",  
             type: "text",
           },
           {
@@ -20,6 +21,11 @@ export default function SignUpPage() {
         ]}
         submitButtonLabel="sign up"
       />
-    </div>
+      <div>
+        <Link to="/" className="text-emerald-700 text-sm underline">
+          Already have an account?
+        </Link>
+      </div>
+    </FormContainer>
   );
 }
